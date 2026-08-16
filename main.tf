@@ -14,5 +14,8 @@ resource "azurerm_resource_group" "Satyam" {
   location = "East US"
 }
 
-
+resource "azurerm_resource_group" "Satyam123" {
+  name     = "Satyam123"
+  location = "East US"
+}
 
